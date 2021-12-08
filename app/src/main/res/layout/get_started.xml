@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash1"
+    tools:context=".GetStarted">
+
+    <ImageView
+        android:id="@+id/myImg1"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/gradient_bg" />
+
+    <TextView
+        android:id="@+id/fooder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/myImg1"
+        android:layout_centerHorizontal="true"
+        android:text="Fooder"
+        android:textColor="#ffffff"
+        android:textSize="38dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/chop_better"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chop better food, wahala no dey finish for our country"
+        android:textColor="#ffffff"
+        android:padding="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:textAlignment="center"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_below="@id/fooder"
+        android:layout_centerHorizontal="true"
+        android:textSize="17dp"
+        android:textStyle="italic" />
+    <Button
+        android:id="@+id/getStartedButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginStart="12dp"
+        android:background="@drawable/ripple"
+        android:text="Get Started"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:layout_below="@id/chop_better"/>
+
+</RelativeLayout>
